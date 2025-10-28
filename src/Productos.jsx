@@ -9,14 +9,21 @@ export default function Productos() {
     <div className="productos-container">
       <h2 className="productos-title">Lista de productos</h2>
       <div className="productos-grid">
-        {/* // Estructura sugerida para mostrar cada producto:
-        // <div className="producto">
-        //   <img src={producto.image} alt={producto.title} />
-        //   <h3>{producto.title}</h3>
-        //   <p className="categoria">Categoría: {producto.category}</p>
-        //   <p className="precio">${producto.price}</p>
-        //   <p className="rating">⭐ {producto.rating.rate} ({producto.rating.count} reseñas)</p>        
-        // </div> */}
+
+          { /* Producto de ejemplo:
+          <div className="producto-card">
+            <img
+              src={}
+              alt={}
+              className="producto-img"
+            />
+            <h3 className="producto-titulo">{}</h3>
+            <p className="producto-categoria">{}</p>
+            <p className="producto-precio">${}</p>
+            <p className="producto-rating">
+              ⭐
+            </p>
+          </div> */ }
 
       </div>
     </div>
